@@ -11,7 +11,7 @@ import {
   databases,
   messaging,
 } from "../appwrite.config";
-import { formatDateTime, parseStringify } from "../utils";
+import { parseStringify } from "../utils";
 
 //  CREATE APPOINTMENT
 export const createAppointment = async (
